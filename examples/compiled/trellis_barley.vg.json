@@ -223,6 +223,7 @@
   "legends": [
     {
       "stroke": "trellis_barley_color",
+      "gradientLength": {"signal": "min(max(height, 100), 200)"},
       "title": "year",
       "encode": {"symbols": {"update": {"fill": {"value": "transparent"}}}}
     }
